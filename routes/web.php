@@ -79,7 +79,7 @@ Route::redirect('log-in', 'login');
     // Assign middleware called "is_admin" to them
     // Put one Route Group code line here below
 
-    Route::group([prefix => 'admin', middleware => 'is_admin'], function(){
+    Route::group(['prefix' => 'admin', 'middleware' => 'is_admin'], function(){
 
     
 
